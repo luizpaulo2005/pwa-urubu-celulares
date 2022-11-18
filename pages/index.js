@@ -17,25 +17,25 @@ export const getServerSideProps = async () => {
 
 export default function Home({ attributes }) {
   return (
-    <div classNameName="container-fluid g-0">
+    <div className="container-fluid g-0">
       <Head>
         <title>Minha Loja</title>
       </Head>
       <NavBar />
-      <div className="container row-cols-auto">
+      <div className="container d-flex flex-wrap justify-content-center">
         {attributes.map(({ id, nome, descricao, preco, url_image }) => (
-          <div className="card col-lg-3 col-md-6 col-sm-12" key={id}>
-            <Image /* src={url_image} */ class="card-img-top" alt={nome} width={100} height={100}/>
-            <div class="card-body">
-              <h5 class="card-title">{nome}</h5>
-              <p class="card-text">
+          <div className="card m-2" key={id}>
+            <Image /* src={url_image} */ className="card-img-top" alt={nome} width={100} height={100}/>
+            <div className="card-body">
+              <h5 className="card-title">{nome}</h5>
+              <p className="card-text">
                 {descricao}
               </p>
               <p className="card-text">
                 {preco}
               </p>
-              <a href="#" class="btn btn-primary">
-                Go somewhere
+              <a href="#" className="btn btn-primary">
+                Adicionar ao Carrinho
               </a>
             </div>
           </div>

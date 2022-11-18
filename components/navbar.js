@@ -3,7 +3,7 @@ const NavBar = () => {
     <nav className="navbar navbar-expand-lg bg-light">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          Navbar
+          Minha Loja
         </a>
         <button
           className="navbar-toggler"
@@ -19,22 +19,19 @@ const NavBar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
-                Home
+              <a className="nav-link active" aria-current="page" href="https://github.com/luizpaulo2005">
+                Meu GitHub
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Features
+              <a className="nav-link" href="https://github.com/luizpaulo2005/frontend-projetofinal-ptas3">
+                GitHub do Projeto
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Pricing
+              <a className="nav-link" href="https://github.com/luizpaulo2005/backend-projetofinal-ptas3">
+                GitHub da API
               </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link disabled">Disabled</a>
             </li>
           </ul>
         </div>
