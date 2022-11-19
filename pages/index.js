@@ -25,7 +25,7 @@ export default function Home({ attributes }) {
       <div className="container d-flex flex-wrap justify-content-center">
         {attributes.map(({ id, nome, descricao, preco, url_image }) => (
           <div className="card m-2" key={id}>
-            <Image /* src={url_image} */ className="card-img-top" alt={nome} width={100} height={100}/>
+            <Image  src={"/celular.png"}  className="card-img-top" alt={nome} width={100} height={250}/>
             <div className="card-body">
               <h5 className="card-title">{nome}</h5>
               <p className="card-text">
