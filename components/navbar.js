@@ -1,10 +1,12 @@
+import Link from "next/link";
+
 const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-light">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          Minha Loja
-        </a>
+        <Link href="/">
+          <button className="navbar-brand btn">Minha Loja</button>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -19,17 +21,27 @@ const NavBar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="https://github.com/luizpaulo2005">
+              <a
+                className="nav-link active"
+                aria-current="page"
+                href="https://github.com/luizpaulo2005"
+              >
                 Meu GitHub
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="https://github.com/luizpaulo2005/frontend-projetofinal-ptas3">
+              <a
+                className="nav-link"
+                href="https://github.com/luizpaulo2005/frontend-projetofinal-ptas3"
+              >
                 GitHub do Projeto
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="https://github.com/luizpaulo2005/backend-projetofinal-ptas3">
+              <a
+                className="nav-link"
+                href="https://github.com/luizpaulo2005/backend-projetofinal-ptas3"
+              >
                 GitHub da API
               </a>
             </li>
