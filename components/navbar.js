@@ -20,14 +20,12 @@ const NavBar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
-          <li className="nav-item">
-              <a
-                className="nav-link active"
-                aria-current="page"
-                href="/cad_produtos"
-              >
-                Cadastre seu Produto
-              </a>
+            <li className="nav-item">
+              <Link href="/cad_produtos">
+                <a className="nav-link active" aria-current="page">
+                  Cadastre seu Produto
+                </a>
+              </Link>
             </li>
             <li className="nav-item">
               <a
