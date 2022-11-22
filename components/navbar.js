@@ -5,7 +5,7 @@ const NavBar = () => {
     <nav className="navbar navbar-expand-lg bg-light">
       <div className="container-fluid">
         <Link href="/">
-          <button className="navbar-brand btn">Minha Loja</button>
+          <button className="navbar-brand btn">Urubu Celulares</button>
         </Link>
         <button
           className="navbar-toggler"
@@ -20,6 +20,15 @@ const NavBar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
+          <li className="nav-item">
+              <a
+                className="nav-link active"
+                aria-current="page"
+                href="/cad_produtos"
+              >
+                Cadastre seu Produto
+              </a>
+            </li>
             <li className="nav-item">
               <a
                 className="nav-link active"

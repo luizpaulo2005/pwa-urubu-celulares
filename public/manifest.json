@@ -4,8 +4,8 @@
     "display": "standalone",
     "scope": ".",
     "start_url": ".",
-    "name": "Minha Loja",
-    "short_name": "Loja",
+    "name": "Urubu Celulares",
+    "short_name": "Urubu Celulares",
     "description": "PWA de Loja de Celulares feita em ReactJS",
     "icons": [
         {

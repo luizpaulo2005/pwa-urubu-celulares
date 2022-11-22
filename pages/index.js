@@ -20,7 +20,7 @@ export default function Home({ attributes }) {
   return (
     <div className="container-fluid g-0">
       <Head>
-        <title>Minha Loja</title>
+        <title>Urubu Celulares</title>
       </Head>
       <NavBar />
       <div className="container d-flex flex-wrap justify-content-center">
