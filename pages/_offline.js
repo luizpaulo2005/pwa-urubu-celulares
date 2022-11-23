@@ -8,7 +8,7 @@ const Fallback = () => (
     </Head>
     <h1>Você está offline</h1>
     <h2>Os items irão aparecer quando você se conectar a internet novamente</h2>
-    <Image src="/no-internet.png" width={100} height={100} alt="offline"/>
+    <Image src="/static/no-internet.png" width={100} height={100} alt="offline" className='align-self-center'/>
   </div>
 )
 
