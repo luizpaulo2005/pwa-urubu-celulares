@@ -22,9 +22,9 @@ const NavBar = () => {
           <ul className="navbar-nav">
             <li className="nav-item">
               <Link href="/cad_produtos">
-                <a className="nav-link active" aria-current="page">
+                <span className="nav-link active" aria-current="page">
                   Cadastre seu Produto
-                </a>
+                </span>
               </Link>
             </li>
             <li className="nav-item">
