@@ -5,7 +5,7 @@ const MeuLocal = () =>{
     return(
         <div className="container-fluid g-0">
             <NavBar/>
-            <div>
+            <div className="d-flex flex-wrap justify-content-center container">
                 <Map/>
             </div>
         </div>
