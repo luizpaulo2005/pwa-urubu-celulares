@@ -28,6 +28,13 @@ const NavBar = () => {
               </Link>
             </li>
             <li className="nav-item">
+              <Link href="/mylocal">
+                <span className="nav-link active" aria-current="page">
+                  Meu Local
+                </span>
+              </Link>
+            </li>
+            <li className="nav-item">
               <a
                 className="nav-link active"
                 aria-current="page"

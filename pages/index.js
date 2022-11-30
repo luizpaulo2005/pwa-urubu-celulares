@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import Map from "../components/map";
 import NavBar from "../components/navbar";
 
 export default function Home({ attributes }) {
