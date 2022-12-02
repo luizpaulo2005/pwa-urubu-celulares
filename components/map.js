@@ -52,6 +52,7 @@ const Map = () => {
               src={
                 "https://maps.google.com/maps?q=" +
                 latitude +
+                "," +
                 longitude +
                 "&z=13&ie=UTF8&iwloc=&output=embed"
               }
