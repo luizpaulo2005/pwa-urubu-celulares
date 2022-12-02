@@ -4,8 +4,8 @@ const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-light">
       <div className="container-fluid">
-        <Link href="/">
-          <button className="navbar-brand btn">Urubu Celulares</button>
+        <Link href="/" className="default-txt">
+          <span className="navbar-brand ">Urubu Celulares</span>
         </Link>
         <button
           className="navbar-toggler"
@@ -21,14 +21,14 @@ const NavBar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link href="/cad_produtos">
+              <Link href="/cad_produtos" className="default-txt">
                 <span className="nav-link active" aria-current="page">
                   Cadastre seu Produto
                 </span>
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/mylocal">
+              <Link href="/mylocal" className="default-txt">
                 <span className="nav-link active" aria-current="page">
                   Meu Local
                 </span>

@@ -13,8 +13,8 @@ export default function Home({ attributes }) {
       <NavBar />
       <div className="container d-flex align-items-center justify-content-center">
         <div className="cartaonxt">
-          <Link href="/produtos">
-            <h2>Veja nossos produtos</h2>
+          <Link href="/produtos" className="default-txt">
+            <h2 >Veja nossos produtos</h2>
           </Link>
         </div>
       </div>
