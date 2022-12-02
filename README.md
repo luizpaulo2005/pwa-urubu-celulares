@@ -1,6 +1,6 @@
 # FrontEnd do Trabalho Final
 
-Disciplina:
+Disciplinas:
 
 - Gerência e Configuração de Serviços de Internet
 - Programação para Dispositivos Móveis 2
