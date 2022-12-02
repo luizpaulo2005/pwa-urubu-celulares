@@ -1,5 +1,11 @@
 # FrontEnd do Trabalho Final
 
+Trabalho feito utilizando:
+
+- NextJS
+- NextPWA
+- Bootstrap - CSS
+
 Disciplinas:
 
 - Gerência e Configuração de Serviços de Internet
